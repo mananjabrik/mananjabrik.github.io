@@ -44,6 +44,10 @@ body{
 			.work{background-color: #60d0d4;}
 			.skill{background-color: #d2c828;}
 footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 	margin-top: 6px;
 	padding: 20px;
 	background-color: #ea345a;
