@@ -81,5 +81,8 @@ footer{
 	body{
 		overflow: visible;
 	}
+	footer{
+		position: static;
+	}
 }
 	/*reset display*/
