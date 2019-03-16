@@ -1,6 +1,5 @@
 body{
 	background-color: #ece6e6;
-	overflow: hidden;
 	color: #6c757d;
 }
 /*reset anchor*/
@@ -83,3 +82,4 @@ footer{
 		overflow: visible;
 	}
 }
+	/*reset display*/
