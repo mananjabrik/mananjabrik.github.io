@@ -1,0 +1,346 @@
+body{
+    background-color: #f8e530;
+    color: white;
+    font-family: Helvetica Neue, Helvetica, arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+/* reset all css font header */
+    h1{
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 80px;
+    }
+    section h2{ 
+        font-size: 3em;
+        text-transform: uppercase;
+        letter-spacing: -4px;
+        font-weight: 800;
+    }
+/* reset all button to jajar genjang */
+    .btn-genjang{
+        border-radius: 8px;
+        transform: skewX(30deg);
+    }
+    p.genjang{
+        font-weight: 700;
+        margin-block-start: 0;
+        margin-block-end: 0px;
+        padding: 0 15px 0 15px;
+        transform: skewx(-30deg);
+    } 
+
+
+/* --------------------------------------------------navbar  */
+    nav{
+        background-color: black;
+        display: flex;
+        height: 60px;
+        padding: 0 20px 0 20px ;
+    }
+    nav div{
+        width: 100%;
+        padding-top: 20px;
+    }
+    nav .logo{
+        background-image: url("images/logo.png");
+        text-indent: -99999999px;
+        background-size: 80px;
+        background-repeat: no-repeat;
+        position: relative;
+
+    }
+    nav .navigation{
+        text-align: center;
+    }
+    nav .menu-bar{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+            .menu-bar li{
+                display: inline-block;
+                margin-right: 20px;
+            }
+             nav a{
+                color: white;
+                text-decoration: none;
+            }
+            nav a.active{
+                color: yellow;
+            }
+        .btn-nav{
+            display: none;
+        }
+/* ------------------------------------responsive strategi on navbar*/
+            @media screen and (max-width: 680px) {
+                .btn-nav{
+                    background-color: black;
+                    font-size: 15px;
+                    display: inline-block;
+                    border: 2px solid #f8e530;
+                    border-radius: none;
+                    color:#f8e530;
+                    padding: 2px 5px 2px 5px;
+                }
+                .menu-bar{
+                    display: none;
+                }
+                nav .navigation{
+                    text-align: right;
+                }
+            }
+/*------------------------------------------------------- header */
+    header{
+        background-image: url('images/slider/back-slider1.png');
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: black;
+        display: flex;
+        height: 400px;
+        padding: 80px;
+    }
+    header .bagian{
+        text-align: center;
+        width: 100%;
+    }     
+        .bagian.gambar img{
+            width: 300px;
+            left: 10px;
+            position: relative;
+        }
+        .bagian h1{
+            line-height: 58px;
+            letter-spacing: -3px;
+        }
+        .bagian.tulisan p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header  button{
+            background-color: black;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-size: 15px;
+            letter-spacing: 1px;
+            padding: 10px;
+            text-transform: uppercase;
+        }
+        section{
+            color: rgb(170, 167, 167);
+            padding: 80px;
+            text-align: center;
+        }
+        
+/* ---------------------------------------service */
+    .service{
+        background-color: black;
+    }
+        .feature-box h2{
+            color: white;
+        }
+        .feature-box b{
+            color: #f8e530;
+        }
+        .group{
+            display: flex;
+            flex-direction: row;
+        }
+        .group figure{
+            width: 100%;
+        }
+            .group figure h3{
+                color: white;
+                text-transform: uppercase;
+            }
+            .group img{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                border: 3px solid white;
+            }
+        .tombol{
+            width: 200px;
+            margin: auto;
+            margin-top: 50px;
+        }
+            .tombol button{
+                background-color: #f8e530;
+                border: none;
+                text-transform: uppercase;
+                font-size: 15px;
+                font-weight: 600;
+                padding: 10px;
+            }
+/* ------------------------------------responsive strategy */
+        @media screen and (max-width: 917px){
+            .group{
+                display: block;
+            }
+        }
+
+            /* brand logo */
+        .brand-logo{
+            padding: 80px;
+        }
+            .brand-logo img{
+                width: 100%;
+            }
+/* ---------------------------------------------our work */
+    .our-work{
+        padding: 80px;
+    } 
+    .our-work h2{
+        color: black;
+    }
+    .our-work p{
+        color: black;
+    }
+        .galery{
+            margin-bottom: -10px;
+            display: flex;
+        }
+            figure.work{
+                width: 100%;
+                display: block;
+                margin-block-start: 0;
+                margin-block-end: 0;
+                margin-inline-start: 0;
+                margin-inline-end: 0;
+            }
+            figure.work img{
+                width: 100%;
+            }
+/* ----------------------------------------brand logo */
+    .brand-logo{
+        background-color: black;
+        padding: 40px;
+        height: 250px;
+    }
+    /* user review */
+    .user-review{
+        background-color: rgb(75, 73, 73);
+        color: white;
+    }
+        .user-coment{
+            display: flex;
+        }
+            .coment{
+                margin: 5px;
+                background-color: black;
+                padding: 30px;
+                text-align: left;
+            }
+                .coment p{
+                    line-height: 30px;
+                }
+            .user-account{
+                display: flex;
+            }
+            .user{
+                padding-left: 10px;
+            }
+                .user-image{
+                    padding-top: 20px;
+                }
+                .user-image img{
+                    border-radius: 50%;
+                }
+                .user-name h4{
+                    margin-block-start: 1.3em;
+                    margin-block-end: 0;
+                    text-transform: capitalize;
+                    font-size: 20px;
+                    font-weight: 900;
+                    top: 20px;
+                }
+                .user-name p{
+                    font-weight: 600;
+                    line-height: 10px;
+                    margin-block-start: 0;
+                    margin-block-end: 0;
+                }
+                .big-quot {
+                    color: yellow;
+                    font-size: 10em;
+                    margin-block-start: 0;
+                    margin-block-end: 0;
+                    margin: 45px 0 0 37px ;
+                    padding: 0;
+                    line-height: 0;
+                }
+                .fa-star {
+                    color: yellow;
+                }
+                .no-star{
+                    color: white;
+                }
+/* --------------------------------------get in touch  */
+    .get-in-touch{
+        color: black;
+    }
+    .contact-form{
+        display: flex;
+    }
+        .contact{
+            width: 100%;
+        }
+        .contact h3{
+            text-transform: uppercase;
+        }
+            .align{
+                text-align: left;
+            }
+            .set{
+               text-transform: capitalize;
+               border-bottom: 2px dotted black;
+            }
+            .create{
+                display: flex;
+            }
+            .create input{
+                padding: 0 0 0 10px;
+                color: white;
+                background-color: black;
+                width: 100%;
+                margin: 10px;
+                height: 30px;
+                border-radius: 18px;
+            }
+            .create ::placeholder{
+                padding: 0 0 0 10px;
+                color: white;
+                text-transform: capitalize;
+            }
+            input:focus{
+                padding: 0 0 0 10px;
+                outline: none;
+            }
+/* --------------------------------footer quick link */
+    .quick-link{
+        padding: 10px 80px 0 80px;
+        background-color: black;
+        display: flex;
+    }
+    .quick-link > div{
+        width: 100%;
+    }
+        .link ul{
+            padding: 0;
+            list-style: none;
+        }
+            .social-media li{
+                display: inline;
+                padding: 10px 10px 10px 1px;
+            }
+            /* footer copy right manan jabrik */
+footer .bot-footer{
+    background-color: #f8e530;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
