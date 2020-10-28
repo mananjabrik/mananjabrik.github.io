@@ -39,10 +39,44 @@ header{
 			margin-block-end: 0;
 			letter-spacing: 2px;
 		}
+	.about-me h3{
+		font-size: 30px;
+		text-transform: uppercase;
+		letter-spacing: 14px;
+	}
+	.about-me p{
+		font-size: 20px;
+	}
+/* -------------------------------section foto date bird */
 	.foto-contact{
 		background-color: #dddb17 ;
 		display: flex;
 	}
+		.foto-contact div{
+			padding: 10px;
+		}
+		.foto-contact h4{
+			color: #2a4292;
+			text-transform: uppercase;
+			font-weight: 900;
+			letter-spacing: 2px;
+			font-size: 20px;
+			margin-block-start: 0;
+			margin-block-end: 0;
+		}
+		.foto-contact p{
+			font-size: 20px;
+		}
+			.foto img{
+				width: 60%;
+				box-shadow: 20px 20px #4a4747;
+			}
+		.website a{
+			text-decoration: none;
+			color: black;
+		}
+		
+/* -----------------------------------section skill level */
 	.skill-level{
 		background-color: #031a30;
 		color: white;
