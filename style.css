@@ -82,10 +82,14 @@ header{
 		color: white;
 		display: flex;
 	}
-		.skill-level div{
-			width: 100%;
+		.all-icon{
 			margin: auto;
-			text-align: center;
-			font-size: 100px;
+			display: flex;
 		}
+			.icon{
+				padding: 30px;
+			}
+			.icon img{
+				width: 100px;
+			}
 		/*---------------------------- section footer 	 */
