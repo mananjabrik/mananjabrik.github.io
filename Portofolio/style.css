@@ -44,7 +44,7 @@ body{
         padding-top: 20px;
     }
     nav .logo{
-        background-image: url("images/logo.png");
+        background-image: url("img/logo.png");
         text-indent: -99999999px;
         background-size: 80px;
         background-repeat: no-repeat;
