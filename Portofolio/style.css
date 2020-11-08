@@ -93,7 +93,7 @@ body{
             }
 /*------------------------------------------------------- header */
     header{
-        background-image: url('images/slider/back-slider1.png');
+        background-image: url('img/slider/back-slider1.png');
         background-size: 80%;
         background-repeat: no-repeat;
         background-position: center;
@@ -320,11 +320,11 @@ body{
             }
             .message{
                 background: black;
-                resize: none;
                 border-radius: 21px;
-                width: 93%;
-                padding: 10px;
                 color: white;
+                padding: 10px;
+                resize: none;
+                width: 93%;
             }
 /* --------------------------------footer quick link */
     .quick-link{
