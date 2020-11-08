@@ -326,6 +326,15 @@ body{
                 resize: none;
                 width: 93%;
             }
+        .contact button{
+            background-color: black;
+            color: white;
+            padding: 7px 15px 7px 15px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
 /* --------------------------------footer quick link */
     .quick-link{
         padding: 10px 80px 0 80px;
